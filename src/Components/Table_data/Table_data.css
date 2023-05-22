@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif !important ;
+}
+
+
+
+
+
+.table_headder{
+    text-transform: capitalize;
+}
+
+
+

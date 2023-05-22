@@ -1,0 +1,62 @@
+.main_home_page{
+    padding: 40px 0px !important;
+    background-image: url(../Assets/home.jpg) ;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    min-height: 90vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home_heading{
+    color: #fff;
+    text-align: center;
+    text-transform:capitalize;
+    font-weight: 700;
+    font-size: 48px !important;
+}
+
+.home_btn{
+    background-color: #672d26;
+    text-align: center;
+    border-width: 5px!important;
+    border-color: #672d26 !important;
+    border-radius: 0px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    text-transform: uppercase !important;
+    color: white !important;
+    text-decoration: none !important;
+    letter-spacing: 1px !important;
+    padding: 15px 25px !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 700px !important;
+    font-size: 20px !important;
+    margin-top: 2rem !important;
+    transition: all 0.5s;
+}
+
+.home_btn:hover{
+    background-color: grey ;
+    color: white !important;
+}
+
+
+.overlay{
+    position: absolute; /* Sit on top of the page content */
+    /* display: none; Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}

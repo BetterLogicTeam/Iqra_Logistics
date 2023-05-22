@@ -1,0 +1,45 @@
+.main_header_logo{
+    width: 200px  !important;
+    text-align: start !important;
+}
+
+
+.header_button{
+    padding: 10px 20px !important;
+    color: white !important;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    border: 1px solid white !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    font-weight: 700 !important ;
+    transition: all 0.5s;
+}
+
+.header_button:hover{
+    letter-spacing: 2px !important;
+    color: #ffc107 !important;
+    border-radius: 15px !important;
+
+}
+
+.stoocl{
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 99;
+}
+
+.header_lgo{
+    position: relative !important;
+    margin-top: 10px !important;
+    width: 32% !important;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .header_button{
+        width:100% !important;
+    }
+}
