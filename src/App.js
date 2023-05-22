@@ -11,9 +11,10 @@ import {
   Link,
   Outlet,
 } from "react-router-dom";
-import Content from './Components/Content/Content';
+import Registration_form from './Components/Registration_form/Registration_form';
 import Table_data from './Components/Table_data/Table_data';
 import Full_home_page from './Components/Full_home_page/Full_home_page';
+import Login_form from './Components/Login_form/Login_form';
 
 function App() {
   return (
@@ -27,8 +28,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Full_home_page/>}/>
-        <Route path='/login' element={<Full_home_page/>}/>
-        <Route path='/Register' element={<Table_data/>}/>
+        <Route path='/login' element={<Login_form/>}/>
+        <Route path='/Register' element={<Registration_form/>}/>
       
       </Routes>
       <Footer/>

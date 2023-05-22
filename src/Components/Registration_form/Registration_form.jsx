@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Checkbox, Form, Input, Select } from "antd";
 const { Option } = Select;
 
-function Rigistration_form() {
+function Registration_form() {
   const onFinish = (values) => {
     console.log("Success:", values);
   };
@@ -111,4 +111,4 @@ function Rigistration_form() {
   );
 }
 
-export default Rigistration_form;
+export default Registration_form;
